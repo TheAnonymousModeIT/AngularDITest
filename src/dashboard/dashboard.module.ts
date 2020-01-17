@@ -2,7 +2,7 @@ import { NgModule, ModuleWithProviders } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import DataService from '../../../..//app/service/data.service';
+import DataService from '../app/service/data.service';
 
 const routes = [
     { path: 'dashboard', component: DashboardComponent }
