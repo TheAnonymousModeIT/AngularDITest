@@ -2,7 +2,7 @@ import { NgModule, ModuleWithProviders } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 import { UsersComponent } from './components/users/users.component';
-import DataService from 'src/app/service/data.service';
+import DataService from '../app/service/data.service';
 
 const routes = [
     { path: '', component: UsersComponent }

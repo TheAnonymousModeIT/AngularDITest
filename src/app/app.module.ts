@@ -15,7 +15,7 @@ import { Child2Component } from './components/parent-and-children/child2/child2.
 
 import DataService from './service/data.service';
 
-import { DashboardModule } from 'src/dashboard/dashboard.module';
+import { DashboardModule } from '../dashboard/dashboard.module';
 
 const routes = [
   { path: '', pathMatch: 'full', component: HomeComponent },
